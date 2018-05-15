@@ -14,8 +14,7 @@ class Project
     if self == backer.back_project(self)
     else
       backer.back_project(self)
-
-
+    end
   end
 
   def backers
