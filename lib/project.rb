@@ -13,6 +13,7 @@ class Project
     if backer.project.include?(self)
     else
       backer.back_project(self)
+    end 
   end
 
   def backers
